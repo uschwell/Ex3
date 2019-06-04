@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<!-- display -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta =charset ="utf-8" />
+</head>
+<body>
+    <img src="~/Content/Images/export-map-share.png" height="100%" width="100%" />
+    <canvas id="displayCanvas" width="50" height="50" style="border:1px solid black"></canvas>
+    <script>
+        var canvas = document.getElementById("displayCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+</body>
+</html>
