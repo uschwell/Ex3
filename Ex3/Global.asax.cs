@@ -9,7 +9,14 @@ namespace Exercise3
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-        protected void Application_Start()
+        public static void Main()
+        {
+            Application_Start();
+        }
+
+
+
+        protected static void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);

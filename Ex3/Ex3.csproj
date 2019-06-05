@@ -108,7 +108,6 @@
     <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\Ex3.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\Ex3.csprojAssemblyReference.cache" />
     <None Include="obj\Debug\Exercise3.csproj.CopyComplete" />
     <None Include="obj\Debug\Exercise3.csproj.CoreCompileInputs.cache" />
     <None Include="obj\Debug\Exercise3.csprojAssemblyReference.cache" />
@@ -142,9 +141,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="obj\Debug\Ex3.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Ex3.exe" />
     <Content Include="obj\Debug\Ex3.pdb" />
-    <Content Include="obj\Debug\Exercise3.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\Exercise3.dll" />
     <Content Include="obj\Debug\Exercise3.pdb" />
     <Content Include="Scripts\bootstrap.js" />

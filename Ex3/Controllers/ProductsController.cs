@@ -11,7 +11,6 @@ namespace Exercise3.Controllers
         // GET: Products
         public ActionResult Index()
         {
-
             return View();
         }
     }

@@ -15,9 +15,9 @@ namespace Exercise3.Controllers
         }
         // GET: save
         [HttpGet]
-        public ActionResult save(string ip1, string ip2, string ip3, string ip4, int port , int time, int duration,string nameFile)
+        public ActionResult save(string input1, string input2, string input3, string input4, int port , int time, int duration,string nameFile)
         {
-            string ip = ip1 + "." + ip2 + "." + ip3 + "." + ip4;
+            string ip = input1 + "." + input2 + "." + input3 + "." + input4;
             return View();
         }
     }

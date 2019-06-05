@@ -16,9 +16,9 @@ namespace Exercise3.Controllers
             return View();
         }
         [HttpGet]
-        public ActionResult secand(string ip1, string ip2, string ip3, string ip4, int port,int time)
+        public ActionResult secand(string input, string input2, string input3, string input4, int port,int time)
         {
-            string ip = ip1 + "." + ip2 + "." + ip3 + "." + ip4;
+            string ip = input + "." + input2 + "." + input3 + "." + input4;
             return View();
         }
     }
